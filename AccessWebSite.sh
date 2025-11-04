@@ -1,0 +1,1 @@
+echo http://${GOOGLE_IP_ADDRESS}:8080
