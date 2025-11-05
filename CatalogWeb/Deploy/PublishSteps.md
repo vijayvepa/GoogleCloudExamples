@@ -22,7 +22,18 @@ NuGet.*
 
 - Key comment should be your username
 - On Windows, save the Private Key file to C:\
-= Add public SSH key to the VM keys
+
+- Add public SSH key to the VM keys
+
+![Add SSH Key](image-1.png)
+
+- Connect to VM
+
+```sh
+ssh -i ~/.ssh/id_google_rsa ${GOOGLE_USERNAME}$@${GOOGLE_IP_ADDRESS}
+```
+
+
 
 
 ## Debian .NET Commands
