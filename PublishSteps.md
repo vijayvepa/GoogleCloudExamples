@@ -86,6 +86,13 @@ cd /home/{USERNAME}/catalog
 dotnet catalog.dll
 ```
 
+- Setup Startup  Script
 
+![Startup Script Setup](image.png)
 
+```sh
+sh /home/vijay_k_vepakomma/Start.sh
+```
 
+- View Logs
+![Startup Logs](StartupLogs.png)
