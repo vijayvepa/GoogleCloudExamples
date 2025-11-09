@@ -1,14 +1,13 @@
-using System;
-using System.ComponentModel.DataAnnotations;
-
-namespace inventory.Models  {
-    public class Book  {
-        public int ID  {get; set;}
-        public String Name { get; set; }
+namespace inventory.Models
+{
+    public class Book
+    {
+        public int ID { get; set; }
+        public string Name { get; set; } = string.Empty;
         public int Pages { get; set; }
-        public String Author { get; set; }
-        public String ImageUrl  {get; set;}
-        public double Price  {get; set;}
-        public int InStock  {get; set;}
-    }    
+        public string Author { get; set; } = string.Empty;
+        public string ImageUrl { get; set; } = string.Empty;
+        public double Price { get; set; }
+        public int InStock { get; set; }
+    }
 }
